@@ -17,14 +17,9 @@ INSERT INTO autores (nome, pais, ano_nascimento) VALUES
 -- 2. LIVROS (31 registros, autores 1 a 14)
 -- ============================================
 INSERT INTO livros (titulo, ano_publicacao, preco, autor_id) VALUES
-('Dom Casmurro', 1899, 39.90, 1),
-('Memórias Póstumas de Brás Cubas', 1881, 45.00, 1),
 ('Quincas Borba', 1891, 36.50, 1),
-('A Hora da Estrela', 1977, 32.50, 2),
 ('A Paixão Segundo G.H.', 1964, 49.90, 2),
-('Cem Anos de Solidão', 1967, 59.90, 3),
 ('Crônica de uma Morte Anunciada', 1981, 39.90, 3),
-('Orgulho e Preconceito', 1813, 29.90, 4),
 ('Emma', 1815, 45.90, 4),
 ('Romeu e Julieta', 1597, 34.90, 5),
 ('Hamlet', 1603, 39.90, 5),
